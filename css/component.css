@@ -376,7 +376,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: #2C2C2C;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #2C2C2C;
+	background: #EE6557;
 }
 .bl-main > section:nth-child(4).bl-expand {
 	background: #BFBFBF;
@@ -454,4 +454,54 @@ section.bl-expand .bl-icon-close {
 	padding: 15px 10px;
 	display: inline;
 	margin: 2px;
+}
+.highlight{
+	color: #C9AB71;
+	font-style: italic;
+}
+.highlight a{
+	text-transform: none;
+	color: #C9AB71;
+	font-style: italic;
+}
+.progress {
+    background: none repeat scroll 0 0 transparent !important;
+    border-radius: 0;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.progress {
+    background-color: #333333;
+    background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 40px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.progress .bar {
+    background-color: #0e90d2;
+    background-image: linear-gradient(to bottom, #149bdf, #0480be);
+    background-repeat: repeat-x;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    transition: width 0.6s ease 0s;
+    width: 0;
+}
+.bar {
+    background: none repeat scroll 0 0 #36303d !important;
+    border: 0 none;
+    font-size: 14px !important;
+    height: 35px;
+    line-height: 40px;
+    padding-left: 30px !important;
+    text-align: left !important;
+    text-shadow: none !important;
 }
