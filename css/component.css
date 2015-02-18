@@ -538,3 +538,10 @@ article a{
 	border-left:1px solid white;
 	padding-left: 20px;
 }
+.btn {
+    padding: 10px 14px;
+    border: 1px solid white;
+}
+.text-center {
+  text-align: center;
+}
