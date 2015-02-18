@@ -444,16 +444,16 @@ section.bl-expand .bl-icon-close {
 	}
 
 	.bl-content > ul li {
-		width: 40%;
+		width: 100%;
 	}
 }
-.contact-icon{
-	background: #144057;
-	height: 60px;
-	width: 40px;
-	padding: 15px 10px;
-	display: inline;
-	margin: 2px;
+.contact-icon {
+    background: none repeat scroll 0 0 #144057;
+    display: inline-block;
+    height: 45px;
+    margin: 3px;
+    padding: 10px 9px;
+    width: 45px;
 }
 .highlight{
 	color: #C9AB71;
@@ -476,7 +476,7 @@ section.bl-expand .bl-icon-close {
     background-repeat: repeat-x;
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
-    height: 40px;
+    height: auto;
     margin-bottom: 20px;
     overflow: hidden;
 }
