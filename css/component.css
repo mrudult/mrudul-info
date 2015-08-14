@@ -34,7 +34,7 @@ a {
 	letter-spacing: 2px;
 	padding: 0 5px;
 	text-transform: uppercase;
-	font-size: 80%;
+	font-size: 70%;
 }
 
 a:hover {
@@ -188,7 +188,7 @@ div.bl-panel-items > div > div {
 .bl-content p {
 	margin: 0 auto;
 	padding-bottom: 15px;
-	font-size: 1.7em;
+	font-size: 1.4em;
 	line-height: 1.8;
 }
 
@@ -205,7 +205,6 @@ div.bl-panel-items > div > div {
 .bl-content article h3 {
 	font-weight: 700;
 	letter-spacing: 2px;
-	text-transform: uppercase;
 	margin: 0 0 10px 0;
 	padding-top: 20px;
 	font-size: 1.4em;
