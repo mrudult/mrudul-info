@@ -114,7 +114,6 @@ EDUCATION
   width: 5px;
   height: 100%;
   position: absolute;
-  left: 25px;
   top: 0;
   content: ' ';
   display: block;
@@ -142,7 +141,7 @@ EDUCATION
   display: inline-block;
 }
 #education .description{
-  width: 80%;
+  width: 95%;
   display: inline-block;
   background: #eee;
   margin-bottom: 10px;
@@ -155,7 +154,6 @@ EDUCATION
   position: absolute;
   top: 15px;
   right: 0;
-  left: -16px;
   height: 0;
   width: 0;
   border: solid transparent;
@@ -247,7 +245,7 @@ SKILLS
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 1.3em;
-  font-weight: 600;
+  font-weight: 400;
 }
 .skills-legend{
   margin-top: 20px;
@@ -338,21 +336,21 @@ MEDIA
 *******************************************/
 @media (min-width: 500px) {
   #education .description{
-    width: 85%;
+    width: 95%;
   }
 }
 @media (min-width: 768px) {
   #education .description{
-    width: 85%;
+    width: 95%;
   }
 }
 @media (min-width: 992px) {
   #education .description{
-    width: 87%;
+    width: 95%;
   }
 }
 @media (min-width: 1200px) {
   #education .description{
-    width: 90%;
+    width: 95%;
   }
 }
