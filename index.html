@@ -47,7 +47,7 @@
               <img src="img/photo2.jpg" alt="avatar">
             </div>
             <div id="text-header">
-              <h1>Hello,<br> my name is <span>Mrudul</span><sup>21yo</sup> and this is my resume/cv</h1>
+              <h1>Hello,<br> my name is <span>Mrudul</span><sup id="age"></sup> and this is my CV</h1>
             </div>
           </div>
         </div>
@@ -119,11 +119,11 @@
               <div class="title pull-right">Stack Overflow</div>
               <div class="description pull-right"><a href="http://stackoverflow.com/users/1552570/mrudult" target="_blank">http://stackoverflow.com/users/1552570/mrudult</a></div>
             </div>
-            <div class="contact-item">
+            <!-- <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-angellist fa-fw"></span></div>
               <div class="title pull-right">Angellist</div>
               <div class="description pull-right"><a href="https://angel.co/mrudult" target="_blank">https://angel.co/mrudult</a></div>
-            </div>
+            </div> -->
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
               <div class="title pull-right">Twitter</div>
@@ -236,6 +236,12 @@
     </div>
     <!-- JQUERY -->
     <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      dob = new Date('1994-08-20');
+      var today = new Date();
+      var age = Math.floor((today-dob) / (365.25 * 24 * 60 * 60 * 1000));
+      $("#age").text(age + 'yo')
+    </script>
     <!-- BOOTSTRAP -->
     <script src="js/bootstrap.min.js"></script>
     <!-- SCRIPTS -->
